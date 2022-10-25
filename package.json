@@ -1,0 +1,35 @@
+{
+  "name": "music-album-release-landing-page-concept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkipekoglu/music-album-release-landing-page-concept.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "js",
+    "html",
+    "gsap"
+  ],
+  "author": "Berk İpekoğlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkipekoglu/music-album-release-landing-page-concept/issues"
+  },
+  "homepage": "https://github.com/berkipekoglu/music-album-release-landing-page-concept#readme",
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "circletype": "^2.3.0",
+    "gsap": "^3.11.3"
+  }
+}

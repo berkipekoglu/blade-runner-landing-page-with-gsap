@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Monument;
+    src: url("fonts/MonumentExtended-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Monument;
+    font-weight: bold;
+    src: url("fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background: url("./img/bg.webp") no-repeat 50% 50%;
+    background-size: cover;
+    font-family: "Monument";
+    text-transform: uppercase;
+}
+
+.gif-overlay {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background: rgba(14, 14, 14, 0.8);
+    z-index: -1;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+/* 2.30 */
