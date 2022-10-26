@@ -537,6 +537,82 @@ var _gsap = require("gsap");
 var _gsapDefault = parcelHelpers.interopDefault(_gsap);
 var _circletype = require("circletype");
 var _circletypeDefault = parcelHelpers.interopDefault(_circletype);
+// npx parcel src/index.html
+const circleType = new (0, _circletypeDefault.default)(document.getElementById("rotated"));
+(0, _gsapDefault.default).from(".artist", 2, {
+    delay: 5.4,
+    opacity: 0,
+    y: 20,
+    ease: "easeInOut"
+});
+(0, _gsapDefault.default).from(".watch", 2, {
+    delay: 5.5,
+    opacity: 0,
+    y: 20,
+    ease: "easeInOut"
+});
+(0, _gsapDefault.default).from(".menu", 2, {
+    delay: 5.6,
+    opacity: 0,
+    y: 20,
+    ease: "easeInOut"
+});
+(0, _gsapDefault.default).from(".rotatethis", 2, {
+    delay: 6,
+    opacity: 0,
+    y: 20,
+    ease: "easeInOut"
+});
+(0, _gsapDefault.default).from(".social-media ul li", 2, {
+    delay: 5.7,
+    opacity: 0,
+    y: 20,
+    ease: "easeInOut",
+    stagger: 0.1
+});
+(0, _gsapDefault.default).from(".listensong ul li", 2, {
+    delay: 5.9,
+    opacity: 0,
+    y: 20,
+    ease: "easeInOut",
+    stagger: 0.1
+});
+(0, _gsapDefault.default).fromTo(".hero-title h1", 0.3, {
+    x: -6,
+    y: 2,
+    opacity: 0
+}, {
+    delay: 4,
+    x: 6,
+    y: -2,
+    opacity: 1,
+    ease: "slow(40, 8, true)",
+    // ease: RoughEase.ease.config({
+    //     strength: 8,
+    //     points: 40,
+    //     template: Linear.easeNone,
+    //     randomize: false
+    // }),
+    clear: "all"
+});
+(0, _gsapDefault.default).fromTo(".hero-title p", 0.3, {
+    x: -6,
+    y: 2,
+    opacity: 0
+}, {
+    delay: 7,
+    x: 6,
+    y: -2,
+    opacity: 1,
+    ease: "slow(40, 8, true)",
+    // ease: RoughEase.ease.config({
+    //     strength: 8,
+    //     points: 40,
+    //     template: Linear.easeNone,
+    //     randomize: false
+    // }),
+    clear: "all"
+});
 
 },{"gsap":"fPSuC","circletype":"ixWZG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fPSuC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
