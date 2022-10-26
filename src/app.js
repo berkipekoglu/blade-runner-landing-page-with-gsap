@@ -3,6 +3,13 @@ import CircleType from 'circletype';
 
 // npx parcel src/index.html
 
+const video = document.getElementById("myVideo")
+function playVideo(){
+    video.play();
+}
+
+playVideo();
+
 const circleType = new CircleType(document.getElementById('rotated'));
 
 gsap.from(".artist", 2, {
