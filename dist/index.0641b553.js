@@ -538,6 +538,11 @@ var _gsapDefault = parcelHelpers.interopDefault(_gsap);
 var _circletype = require("circletype");
 var _circletypeDefault = parcelHelpers.interopDefault(_circletype);
 // npx parcel src/index.html
+const video = document.getElementById("myVideo");
+function playVideo() {
+    video.play();
+}
+playVideo();
 const circleType = new (0, _circletypeDefault.default)(document.getElementById("rotated"));
 (0, _gsapDefault.default).from(".artist", 2, {
     delay: 5.4,
